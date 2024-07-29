@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1>Digite um texto que deseja escutar o audio</h1>
+            <div class="pesquisar">
+                Selecionar Voz: <select id="voz"></select><br><br>
+                <input id="inputTexto"/>
+                <button id="btnfalar" onclick='getVozes()'><img class="microphone" src="images/microphone.png"></button>
+            </div>
+        </div>
+    </main>
+    <script src="index.js" async></script>
+</body>
+</html>

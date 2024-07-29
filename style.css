@@ -1,0 +1,21 @@
+.container{
+    padding-top: 100px;
+    align-items: center;
+    display: block;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.pesquisar button {
+    cursor: pointer;
+    padding: 20px;
+    background-color: darkgray;
+    border: none;
+    border-radius: 100px;
+    margin: 10px;
+}
+
+.microphone{
+    height: 50px;
+    width: 50px;
+}
